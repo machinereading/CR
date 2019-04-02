@@ -9,10 +9,10 @@ This repository contains the code for replicating results from
 
 
 ## Getting Started
-
 * Install python3 requirements: `pip3 install -r requirements.txt`
 * Build custom kernels by running `setup_all.sh`.
   * There are 3 platform-dependent ways to build custom TensorFlow kernels. Please comment/uncomment the appropriate lines in the script.
+* Download `word2vec.txt` and save at here.
 
 
 ## Training Instructions
