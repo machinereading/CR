@@ -1,2 +1,3 @@
 word2vec.txt
-word2vec.zip
+*.zip
+elmo_cache.NER5.hdf5
