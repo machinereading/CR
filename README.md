@@ -20,10 +20,10 @@
 * Results are stored in the `logs` directory and can be viewed via TensorBoard.
 * Evaluation: `python3 evaluate.py <experiment>`
 
-## Pretrained model
-* `logs` directory have 3 pretrained model, `best`, `model_final` and `MTA02_best`.
-  * `best` and `model_final` are absolutely same model. They just have different names because of configuration of train, evaluation. They are trained by GOLD data set.
-  * `MTA02` is a pretrained model of crowdsourcing data set.
+## Pretrained model & ELMo embedding
+* `logs` directory have a pretrained model, `MTA02-test`.
+  * `MTA02-test` is a pretrained model of crowdsourcing data set.
+* If you want to use pretrained `ELMo embedding`, download it in the input directory.
 
 
 ## Others
